@@ -11,7 +11,7 @@ export default function AadhaarOCR() {
     const file = event.target.files[0];
     if (!file) return;
 
-    // **Check if the file is a JPEG**
+    // **Check if the file is a JPEG
     if (!file.type.includes("jpeg") && !file.type.includes("jpg")) {
       alert("Only JPEG files are allowed. Please upload a valid JPEG image.");
       return;
